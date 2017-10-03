@@ -36,3 +36,20 @@
     You need an ARM toolchain (such as devkitARM).
 
     Once you have the disk image as "disks/unixv5.dsk" , simply run make.
+
+### Edit
+
+    This is the official GBAUNIX (R) rom found at
+    http://www.kernelthread.com/publications/gbaunix/ with the DSK file
+    and an easy to use bash script that compiles the rom. 
+    
+    If you want to compile the rom in linux, cd into the directory `gbaunix-0.0`
+    and run
+    `$ sh ./compile.sh`
+    
+    In Windows, download MSYS which is in releases and run the same command in the
+    MSYS console.
+    
+    In Android, download Terminal Emulator for Android, also in releases, and cd
+    into the directory. Android's download directory is in
+    `/storage/emulated/0/Download`.
