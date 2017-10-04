@@ -24,7 +24,7 @@
 
     If you only want to run gbaunix, without recompiling it, do the following:
 
-    % cat unixv5.tmp disks/unixv5.dsk > unixv5.gba
+    `% cat unixv5.tmp disks/unixv5.dsk > unixv5.gba`
 
     unixv5.tmp is pre-compiled gbaunix, minus the disk image. Once you
     concatenate the disk image, "unixv5.gba" can be used with a Game Boy
@@ -35,13 +35,17 @@
 
     You need an ARM toolchain (such as devkitARM).
 
-    Once you have the disk image as "disks/unixv5.dsk" , simply run make.
+    Once you have the disk image as `disks/unixv5.dsk` , simply run make.
 
-### Edit
+    Edit (03-10-17)
+    ----
 
     This is the official GBAUNIX (R) rom found at
     http://www.kernelthread.com/publications/gbaunix/ with the DSK file
-    and an easy to use bash script that compiles the rom. 
+    and an easy to use bash script that compiles the rom.
+    
+    Compiling (Updated 03-10-17)
+    ----------------------------
     
     If you want to compile the rom in linux, cd into the directory `gbaunix-0.0`
     and run
@@ -53,3 +57,27 @@
     In Android, download Terminal Emulator for Android, also in releases, and cd
     into the directory. Android's download directory is in
     `/storage/emulated/0/Download`.
+    
+    Downloads
+    ---------
+    
+    The UNIX (R) roms:
+    
+    <a href="https://github.com/SparrOSDeveloperTeam/gbaunix-0.0/releases/download/v0.0d/unixv5.gba">GBA</a> rom
+    
+    <a href="https://github.com/SparrOSDeveloperTeam/gbaunix-0.0/releases/download/v0.0d/unixv5.dsk">DSK</a> rom
+    
+    The initial download archive:
+    
+    <a href="https://github.com/SparrOSDeveloperTeam/gbaunix-0.0/releases/download/v0.0c/gbaunix-0.0.tar.bz2">tar.bz2</a> archive
+    
+    Latest code:
+    
+    <a href="https://github.com/SparrOSDeveloperTeam/gbaunix-0.0/archive/master.zip">Zip</a> archive
+    
+    Tools to compile the program:
+    
+    Android - <a href="https://github.com/SparrOSDeveloperTeam/gbaunix-0.0/releases/download/v0.0e/jackpal.androidterm_9d9b7_2015-04-15.apk">Terminal Emulator</a> apk (Android-x86 project has Terminal Emulator for Android preinstalled)
+    
+    Windows - <a href="https://github.com/SparrOSDeveloperTeam/gbaunix-0.0/releases/download/v0.0e/mingw-get-setup.exe">MinGW MSYS</a> installer executable
+    
